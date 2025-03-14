@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - NESA AGNESIA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cv-container">
+        <header class="cv-header">
+            <div class="profile-photo">
+                <img src="gambar/foto cv.jpg">
+            </div>
+            <h1>NESA AGNESIA</h1>
+            <p class="contact">
+                <i class="fas fa-envelope"></i> nesaagnesia9@gmail.com
+            </p>
+            <p class="contact">
+                <i class="fas fa-phone"></i> +6285876023482
+            </p>
+            <p class="contact">
+                <i class="fas fa-home"></i> Wonosobo, Jawa Tengah
+            </p>
+        </header>
+        <main class="cv-main">
+            <section class="cv-left">
+                <h2>About Me</h2>
+                <p> Saya adalah siswi SMK jurusan Teknik Komputer dan Jaringan yang memiliki minat dalam dunia teknologi, khususnya jaringan dan pengembangan web. Saya memiliki keterampilan dalam crimping, konfigurasi Debian, serta pembuatan dan desain website. Selain itu, saya juga suka belajar hal-hal baru yang berhubungan dengan IT. </p> 
+                <h2>Skills</h2>
+                <p>Microsoft Office (Word, Excel, PowerPoint)</p>
+                <div class="load">
+                    <div class="progress" style="width:90%">90%</div>
+                </div>
+
+                <p>HTML & CSS</p>
+                <div class="load">
+                    <div class="progress" style="width:85%">85%</div>
+                </div>
+
+                <p>Linux (Debian Configuration) & Crimping</p>
+                <div class="load">
+                    <div class="progress" style="width:85%">85%</div>
+                </div>
+            </section>
+
+
+            <section class="cv-right">
+                <h2>Education</h2>
+                <h3>SD Negeri 1 Sumberdalem</h3>
+                <p>2014 - 2020</p>
+                <h3>SMP Negeri 1 Kalikajar</h3>
+                <p>2020 - 2023</p>
+                <h3>SMK Negeri 1 Wonosobo</h3>
+                <p>2023 - Sekarang</p>
+
+
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Membaca buku</li>
+                    <li>Mendengarkan musik</li>
+                    <li>Menonton film</li>
+                </ul>
+
+                <div class="social-media">
+                    <h2>Social Media</h2>
+                    <ul>
+                        <li>Instagram - <a href="https://www.instagram.com/_nesaagn9" target="_blank">@_nesaagn9</a></li>
+                        <li>YouTube - <a href="https://www.youtube.com/@nesaagnesia9071" target="_blank">@nesaagnesia9071</a></li>
+                    </ul>
+                </div>
+                
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2025 Nesa Agnesia. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+<style>
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f2e5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background: #fafafa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header Section */
+.cv-header {
+    text-align: center;
+    background: #c6a8a0;
+    color: white;
+    padding: 20px;
+}
+
+.cv-header .profile-photo img {
+    width: 175px; 
+    height: 175px; 
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover; /* Biar gambar tetap sesuai ukuran */
+    object-position: center 33%; /* Geser gambar ke bawah */
+    margin-bottom: 0px; /* Tambah jarak dari teks */
+}
+
+
+.contact {
+    font-size: 1rem;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.contact i {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+/* Main Section */
+.cv-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cv-left,
+.cv-right {
+    padding: 20px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+.cv-left h2,
+.cv-right h2 {
+    border-bottom: 2px solid #c6a8a0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #c6a8a0;
+}
+
+/* Progress Bar */
+.load {
+    background: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.progress {
+    background: #c6a8a0;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #c6a8a0;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+</style>
