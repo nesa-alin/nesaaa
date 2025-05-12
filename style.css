@@ -1,0 +1,124 @@
+body {
+    background-color: #fdf8f3;
+    color: #333;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff9f5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cv-header {
+    text-align: center;
+    background: #b79dac;
+    color: white;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.cv-header .profile-photo img {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    object-position: center center;
+    margin-bottom: 10px;
+}
+
+.contact {
+    font-size: 1rem;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.contact i {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.cv-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cv-left,
+.cv-right {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cv-left h2,
+.cv-right h2 {
+    border-bottom: 2px solid #b79dac;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #b79dac;
+    font-family: 'Playfair Display', serif;
+}
+
+.load {
+    background: #f0e6df;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.progress {
+    background: #b79dac;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.cv-right ul li::before {
+    content: '\f04b';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 8px;
+    color: #b79dac;
+}
+
+.social-media ul li::before {
+    content: none;
+}
+
+.social-media ul li i {
+    color: #b79dac;
+    margin-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    background: #b79dac;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: #946c82;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
